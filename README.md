@@ -1,8 +1,10 @@
 # Dicas de TypeScript
+
 <!-- ![image](./image/logo.svg) -->
-<p align="center">
-     <img src="./image/logo.svg" width="60%" alt="fullstack-igti">
-</p>
+<div>
+  <img style="float:left" src="./image/typescript-logo@logotyp.us.svg" width="20%" alt="fullstack-igti">
+  <img src="./image/logo.svg" width="60%" alt="fullstack-igti">
+</div>
 
 TypeScript é um superset do JavaScript que adiciona tipagem estática opcional e muitos recursos úteis. Aqui estão algumas dicas para ajudar você a aproveitar ao máximo TypeScript:
 
@@ -155,21 +157,28 @@ import { somar } from './matematicas';
 console.log(somar(2, 3));
 
 ```
+
 # 11. Type Assertions
-* Use assertions para informar ao compilador sobre tipos específicos:
+
+- Use assertions para informar ao compilador sobre tipos específicos:
+
 ```
 let algumValor: any = "isto é uma string";
 let comprimentoDaString: number = (algumValor as string).length;
 
 ```
+
 ## 12. Linting
-* Use o TSLint ou o ESLint com a extensão TypeScript para garantir um código limpo e consistente:
+
+- Use o TSLint ou o ESLint com a extensão TypeScript para garantir um código limpo e consistente:
+
 ```
 npm install tslint --save-dev
 tslint --init
 ```
 
 ### Recursos Adicionais
- * [Documentação Oficial do TypeScript](https://www.typescriptlang.org/pt/docs/handbook/typescript-in-5-minutes.html)
-* [Playground do TypeScript](https://www.typescriptlang.org/pt/play/)
-* [Guia de Estilo do TypeScript](https://github.com/microsoft/TypeScript/wiki/Coding-guidelines)
+
+- [Documentação Oficial do TypeScript](https://www.typescriptlang.org/pt/docs/handbook/typescript-in-5-minutes.html)
+- [Playground do TypeScript](https://www.typescriptlang.org/pt/play/)
+- [Guia de Estilo do TypeScript](https://github.com/microsoft/TypeScript/wiki/Coding-guidelines)
